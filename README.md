@@ -76,5 +76,5 @@ Send a pull request if you feel like it.
 See the list of [contributors](https://github.com/mikalsande/lua-bloom-count/graphs/contributors) who participated in this project.
 
 ## License
-Unless another license is specified in the beginning of a file this project is licesed under the Unlicense - see the [LICENSE.md](LICENSE.md) file for details
+Unless another license is specified in the beginning of a file this project is licesed under the Unlicense - see the [LICENSE](LICENSE) file for details
 
