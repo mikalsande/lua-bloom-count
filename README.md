@@ -20,7 +20,6 @@ The filters are dependent on [LuaBitOP](http://bitop.luajit.org/) and [lua-xxhas
 ```
 luarocks install luabitop
 luarocks install xxhash
-
 ```
 
 ### Installing
