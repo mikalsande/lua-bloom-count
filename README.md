@@ -1,6 +1,4 @@
 # lua-bloom-count
-Counting Bloom and boolean Bloom filter written in Lua.
-
 Contains two different Bloom filters.
 * bloombool - standard Bloom filter that give a boolean output
 * bloomcount - counting Bloom filters, gives a count as output
