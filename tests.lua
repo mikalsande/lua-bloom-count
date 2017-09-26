@@ -1,5 +1,5 @@
+counter = require('bloom')
 luaunit = require('luaunit')
-counter = require('bloombool')
 
 
 -- default config
