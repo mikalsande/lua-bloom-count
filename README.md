@@ -81,7 +81,7 @@ Checked 10000 items in the filter in 32.51708984375 msec
 Send a pull request if you feel like it.
 
 ## Authors
-See the list of [contributors](https://github.com/mikalsande/lua-bloom-count/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/mikalsande/lua-simple-bloom/graphs/contributors) who participated in this project.
 
 ## License
 Unless another license is specified in the beginning of a file this project is licesed under the Unlicense - see the [LICENSE](LICENSE) file for details
