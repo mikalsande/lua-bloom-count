@@ -21,6 +21,14 @@ print(a .. ' ' .. b)
 ```
 Should print out '0 1'.
 
+### API
+
+#### Module API
+`new(numberOfItems, failureRate)` Returns a new instance of a Bloom filter.
+
+#### Instance API
+`add(item)` Add a new item to the filter. Returns 0 if the item was added, 1 if it was not added because the item already existed in the filter.
+`check(item)` Returns 1 if the item exists in the filter and 0 if it does not exist.
 
 ### Dependencies
 Runtime dependencies are [LuaBitOP](http://bitop.luajit.org/) and [lua-xxhash](https://github.com/mah0x211/lua-xxhash). Both can be instlled with LuaRocks.
@@ -34,7 +42,7 @@ The unit tests depend on [luaunit](https://github.com/bluebird75/luaunit)
 luarocks install luaunit
 ```
 
-The unit tests depend on [luasocket](https://github.com/diegonehab/luasocket)
+The performance tests depend on [luasocket](https://github.com/diegonehab/luasocket)
 ```
 luarocks install luasocket
 ```
