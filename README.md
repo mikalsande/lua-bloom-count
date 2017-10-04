@@ -28,6 +28,7 @@ Should print out '0 1'.
 
 #### Instance API
 `add(item)` Add a new item to the filter. Returns 0 if the item was added, 1 if it was not added because the item already existed in the filter.
+
 `check(item)` Returns 1 if the item exists in the filter and 0 if it does not exist.
 
 ### Dependencies
